@@ -1,0 +1,19 @@
+{
+  "name": "Seek Challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "ui-test": "npx playwright test --ui",
+    "show-report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/jquery": "^3.5.30",
+    "@types/node": "^20.14.2"
+  }
+}
